@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Science in the USA</title>
+    <style>
+        :root {
+            --accent-color: #295482;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            background-color: #f8f9fa;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        .container {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            padding: 1rem;
+            margin: 0 auto;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 0.5rem;
+            flex-shrink: 0;
+        }
+
+        h1 {
+            color: var(--accent-color);
+            font-size: 1.5rem;
+            margin: 0;
+        }
+
+        .presentation-container {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .presentation-wrapper {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 2rem; /* Space for attribution */
+            box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .presentation-wrapper iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .attribution {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            text-align: center;
+            font-size: 0.8rem;
+            color: #6c757d;
+            padding: 0.5rem 0;
+        }
+
+        .attribution a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+
+        .attribution a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <!-- <h1>Science in the USA</h1> -->
+        </header>
+        
+        <div class="presentation-container">
+            <div class="presentation-wrapper">
+                <iframe loading="lazy"
+                    src="https://www.canva.com/design/DAGiIRPlTzw/6UZd_WE9URThbnuVry4tHA/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+                </iframe>
+            </div>
+            <div class="attribution">
+                <a href="https://www.canva.com/design/DAGiIRPlTzw/6UZd_WE9URThbnuVry4tHA/view?utm_content=DAGiIRPlTzw&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Science in the USA</a> by Michelle Weirathmueller
+            </div>
+        </div>
+    </div>
+</body>
+</html> 
